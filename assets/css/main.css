@@ -1,0 +1,65 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilos generales*/
+.item {
+	padding: 10px;
+}
+.yellow {
+	background-color: yellow;
+}
+.pink{
+		background-color: #E9005A;
+}
+
+/*Estilos por ejercicio*/
+#index1 p{
+	display: block;
+	height: 50px;
+	margin:0;
+}
+#index1 .pink{
+	border: 1.5px solid black;
+}
+#index2 p{
+	display: block;
+	width: 200px;
+	height: 50px;
+}
+#index3 p{
+	display: inline;
+}
+#index4 p{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	margin-left: 10px;
+}
+
+/*EJERCICIO 8 CAJAS*/
+.caja {
+	width: 100px;
+	height: 100px;
+	background-color: #B7B8B5;
+	border: 1.5px solid #60615F;
+	margin-bottom: 20px;
+}
+.vertical {
+	display: block;
+}
+.horizontal{
+	display: block;
+	width: 350px;
+	padding: 20px;
+}
+.interior{
+	display: inline-block;
+	margin: 0 5px;
+}
+.esp {
+	display: inline-block;
+}
+.lateral {
+	margin-left: 10px;
+}
